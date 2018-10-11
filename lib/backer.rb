@@ -14,4 +14,7 @@ class Backer
     # add_backer(self)
   end 
   
+  def backers
+  end 
+  
 end 
