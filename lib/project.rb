@@ -9,6 +9,9 @@ class Project
     # back_project(self.title)
   end 
   
+  def add_backer()
+  end 
+  
   
   
 end
