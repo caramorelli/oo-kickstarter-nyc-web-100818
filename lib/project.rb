@@ -7,6 +7,7 @@ class Project
   def initialize(title)
     @title = title
     # back_project(self.title)
+    @backers = []
   end 
   
   def add_backer()
