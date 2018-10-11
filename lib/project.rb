@@ -6,7 +6,7 @@ class Project
   
   def initialize(title)
     @title = title
-    # back_project(title)
+    # back_project(self.title)
   end 
   
   
