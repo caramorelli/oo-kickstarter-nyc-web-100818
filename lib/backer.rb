@@ -11,7 +11,7 @@ class Backer
   
   # spencer.back_project(magic)
   
-  def back_project(project)
+  def backed_project(project)
     @backed_projects << project.title
     project.add_backer(self)
   end 
