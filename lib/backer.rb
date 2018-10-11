@@ -9,9 +9,7 @@ class Backer
     @backed_projects = []
   end 
   
-  # spencer.back_project(magic)
-  
-  def backed_project(project)
+  def back_project(project)
     @backed_projects << project
     # project.add_backer(self)
   end 
